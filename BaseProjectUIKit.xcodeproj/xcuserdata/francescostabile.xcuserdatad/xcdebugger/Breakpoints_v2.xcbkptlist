@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B729715B-8B1A-4860-8807-83C7860F6D35"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39FFD5D2-ECBF-4001-A0CD-C072D509D910"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CoreLayer/Sources/CoreLayer/Routing/AnchorResolver.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "createURL(host:path:props:open:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "87ECC5A2-8FCB-425F-AB07-3CEB6C2FEAC4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../HomeModule/Sources/HomeModule/HomeRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "component(params:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "87ECC5A2-8FCB-425F-AB07-3CEB6C2FEAC4 - 1c55dd82ad0942c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeModule.HomeRouter.component(params: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;) -&gt; Swift.Optional&lt;__C.UIViewController&gt;"
+                  moduleName = "BaseProjectUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/francescostabile/Documents/Progetti/Personali/HomeModule/Sources/HomeModule/HomeRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "87ECC5A2-8FCB-425F-AB07-3CEB6C2FEAC4 - 3ddfdacceeddda62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeModule.HomeRouter.component(params: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) -&gt; Swift.Optional&lt;__C.UIViewController&gt;"
+                  moduleName = "BaseProjectUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/francescostabile/Documents/Progetti/Personali/HomeModule/Sources/HomeModule/HomeRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "176">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4BBABDAD-90D5-4973-9540-0F06EAEFB58E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../HomeModule/Sources/HomeModule/HomeRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "component(params:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4BBABDAD-90D5-4973-9540-0F06EAEFB58E - 1c55dd82ad0942c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeModule.HomeRouter.component(params: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;) -&gt; Swift.Optional&lt;__C.UIViewController&gt;"
+                  moduleName = "BaseProjectUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/francescostabile/Documents/Progetti/Personali/HomeModule/Sources/HomeModule/HomeRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "4BBABDAD-90D5-4973-9540-0F06EAEFB58E - 3ddfdacceeddda62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeModule.HomeRouter.component(params: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) -&gt; Swift.Optional&lt;__C.UIViewController&gt;"
+                  moduleName = "BaseProjectUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/francescostabile/Documents/Progetti/Personali/HomeModule/Sources/HomeModule/HomeRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "176">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BEF95504-0491-4BB4-B2F3-9C5D9AE5D42C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CoreLayer/Sources/CoreLayer/Routing/AnchorResolver.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "createURL(host:path:props:open:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
