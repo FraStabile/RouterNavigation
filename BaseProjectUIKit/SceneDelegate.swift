@@ -9,6 +9,7 @@ import UIKit
 import CoreLayer
 import Swinject
 import HomeModule
+import Papyrus
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     var window: UIWindow?
@@ -30,6 +31,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window.rootViewController = navigation
         DIContainer.current.container.register(Router.self) { _ in
             AppRouter(navController: navigation)
+        }
+        
+        DIContainer.current.container.register(Provider.self) { _ in
+            Provider(baseURL: "https://rickandmortyapi.com/")
         }
         DIContainer.current.container.register(String.self, name: "AppName") { _ in
             "appBase"

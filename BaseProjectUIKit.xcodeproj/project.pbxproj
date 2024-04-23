@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,8 @@
 		FF1B9BCB2BD65C36005CFEE3 /* NetworkLayer in Frameworks */ = {isa = PBXBuildFile; productRef = FF1B9BCA2BD65C36005CFEE3 /* NetworkLayer */; };
 		FF1B9BCD2BD65C78005CFEE3 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1B9BCC2BD65C78005CFEE3 /* AppRouter.swift */; };
 		FF1B9BD02BD69B5D005CFEE3 /* DetailsFeatures in Frameworks */ = {isa = PBXBuildFile; productRef = FF1B9BCF2BD69B5D005CFEE3 /* DetailsFeatures */; };
+		FF93DD212BD7CB3000AEB59A /* UILayer in Frameworks */ = {isa = PBXBuildFile; productRef = FF93DD202BD7CB3000AEB59A /* UILayer */; };
+		FF93DD262BD7CB7700AEB59A /* UILayer in Frameworks */ = {isa = PBXBuildFile; productRef = FF93DD252BD7CB7700AEB59A /* UILayer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +68,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF93DD262BD7CB7700AEB59A /* UILayer in Frameworks */,
 				FF1B9BD02BD69B5D005CFEE3 /* DetailsFeatures in Frameworks */,
 				FF1B9BCB2BD65C36005CFEE3 /* NetworkLayer in Frameworks */,
+				FF93DD212BD7CB3000AEB59A /* UILayer in Frameworks */,
 				FF1B9BC72BD65C36005CFEE3 /* CoreLayer in Frameworks */,
 				FF1B9BC92BD65C36005CFEE3 /* HomeModule in Frameworks */,
 			);
@@ -191,6 +195,8 @@
 				FF1B9BC82BD65C36005CFEE3 /* HomeModule */,
 				FF1B9BCA2BD65C36005CFEE3 /* NetworkLayer */,
 				FF1B9BCF2BD69B5D005CFEE3 /* DetailsFeatures */,
+				FF93DD202BD7CB3000AEB59A /* UILayer */,
+				FF93DD252BD7CB7700AEB59A /* UILayer */,
 			);
 			productName = BaseProjectUIKit;
 			productReference = FF1B9B8C2BD65BEB005CFEE3 /* BaseProjectUIKit.app */;
@@ -264,6 +270,9 @@
 				Base,
 			);
 			mainGroup = FF1B9B832BD65BEB005CFEE3;
+			packageReferences = (
+				FF93DD242BD7CB7700AEB59A /* XCLocalSwiftPackageReference "../UILayer" */,
+			);
 			productRefGroup = FF1B9B8D2BD65BEB005CFEE3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -658,6 +667,13 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		FF93DD242BD7CB7700AEB59A /* XCLocalSwiftPackageReference "../UILayer" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../UILayer;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		FF1B9BC62BD65C36005CFEE3 /* CoreLayer */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -674,6 +690,14 @@
 		FF1B9BCF2BD69B5D005CFEE3 /* DetailsFeatures */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = DetailsFeatures;
+		};
+		FF93DD202BD7CB3000AEB59A /* UILayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UILayer;
+		};
+		FF93DD252BD7CB7700AEB59A /* UILayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UILayer;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
