@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,6 +23,11 @@
 		FF1B9BD02BD69B5D005CFEE3 /* DetailsFeatures in Frameworks */ = {isa = PBXBuildFile; productRef = FF1B9BCF2BD69B5D005CFEE3 /* DetailsFeatures */; };
 		FF93DD212BD7CB3000AEB59A /* UILayer in Frameworks */ = {isa = PBXBuildFile; productRef = FF93DD202BD7CB3000AEB59A /* UILayer */; };
 		FF93DD262BD7CB7700AEB59A /* UILayer in Frameworks */ = {isa = PBXBuildFile; productRef = FF93DD252BD7CB7700AEB59A /* UILayer */; };
+		FF97DD522BD802D800AE95B8 /* NetworkLayer in Resources */ = {isa = PBXBuildFile; fileRef = FF97DD502BD802D800AE95B8 /* NetworkLayer */; };
+		FF97DD532BD802D800AE95B8 /* CoreLayer in Resources */ = {isa = PBXBuildFile; fileRef = FF97DD512BD802D800AE95B8 /* CoreLayer */; };
+		FF97DD572BD802E000AE95B8 /* DetailsFeatures in Resources */ = {isa = PBXBuildFile; fileRef = FF97DD552BD802E000AE95B8 /* DetailsFeatures */; };
+		FF97DD582BD802E000AE95B8 /* HomeModule in Resources */ = {isa = PBXBuildFile; fileRef = FF97DD562BD802E000AE95B8 /* HomeModule */; };
+		FF97DD5A2BD8031500AE95B8 /* UILayer in Resources */ = {isa = PBXBuildFile; fileRef = FF97DD592BD8031500AE95B8 /* UILayer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,11 +61,12 @@
 		FF1B9BAC2BD65BED005CFEE3 /* BaseProjectUIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseProjectUIKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1B9BB02BD65BED005CFEE3 /* BaseProjectUIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseProjectUIKitUITests.swift; sourceTree = "<group>"; };
 		FF1B9BB22BD65BED005CFEE3 /* BaseProjectUIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseProjectUIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		FF1B9BC22BD65C27005CFEE3 /* CoreLayer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CoreLayer; path = ../../../CoreLayer; sourceTree = "<group>"; };
-		FF1B9BC32BD65C2A005CFEE3 /* HomeModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = HomeModule; path = ../../../HomeModule; sourceTree = "<group>"; };
-		FF1B9BC42BD65C2D005CFEE3 /* NetworkLayer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = NetworkLayer; path = ../../../NetworkLayer; sourceTree = "<group>"; };
 		FF1B9BCC2BD65C78005CFEE3 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
-		FF1B9BCE2BD69755005CFEE3 /* DetailsFeatures */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DetailsFeatures; path = ../../../DetailsFeatures; sourceTree = "<group>"; };
+		FF97DD502BD802D800AE95B8 /* NetworkLayer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NetworkLayer; sourceTree = "<group>"; };
+		FF97DD512BD802D800AE95B8 /* CoreLayer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CoreLayer; sourceTree = "<group>"; };
+		FF97DD552BD802E000AE95B8 /* DetailsFeatures */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DetailsFeatures; sourceTree = "<group>"; };
+		FF97DD562BD802E000AE95B8 /* HomeModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = HomeModule; sourceTree = "<group>"; };
+		FF97DD592BD8031500AE95B8 /* UILayer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UILayer; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,8 +125,8 @@
 		FF1B9B8E2BD65BEB005CFEE3 /* BaseProjectUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				FF1B9BC12BD65C1F005CFEE3 /* FeaturesLayer */,
-				FF1B9BC02BD65C1A005CFEE3 /* BaseLayer */,
+				FF97DD542BD802E000AE95B8 /* FeaturesLayer */,
+				FF97DD4F2BD802D800AE95B8 /* BaseLayer */,
 				FF1B9B8F2BD65BEB005CFEE3 /* AppDelegate.swift */,
 				FF1B9B912BD65BEB005CFEE3 /* SceneDelegate.swift */,
 				FF1B9B932BD65BEB005CFEE3 /* ViewController.swift */,
@@ -149,30 +155,31 @@
 			path = BaseProjectUIKitUITests;
 			sourceTree = "<group>";
 		};
-		FF1B9BC02BD65C1A005CFEE3 /* BaseLayer */ = {
-			isa = PBXGroup;
-			children = (
-				FF1B9BC42BD65C2D005CFEE3 /* NetworkLayer */,
-				FF1B9BC22BD65C27005CFEE3 /* CoreLayer */,
-			);
-			path = BaseLayer;
-			sourceTree = "<group>";
-		};
-		FF1B9BC12BD65C1F005CFEE3 /* FeaturesLayer */ = {
-			isa = PBXGroup;
-			children = (
-				FF1B9BCE2BD69755005CFEE3 /* DetailsFeatures */,
-				FF1B9BC32BD65C2A005CFEE3 /* HomeModule */,
-			);
-			path = FeaturesLayer;
-			sourceTree = "<group>";
-		};
 		FF1B9BC52BD65C36005CFEE3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
+		};
+		FF97DD4F2BD802D800AE95B8 /* BaseLayer */ = {
+			isa = PBXGroup;
+			children = (
+				FF97DD592BD8031500AE95B8 /* UILayer */,
+				FF97DD502BD802D800AE95B8 /* NetworkLayer */,
+				FF97DD512BD802D800AE95B8 /* CoreLayer */,
+			);
+			path = BaseLayer;
+			sourceTree = SOURCE_ROOT;
+		};
+		FF97DD542BD802E000AE95B8 /* FeaturesLayer */ = {
+			isa = PBXGroup;
+			children = (
+				FF97DD552BD802E000AE95B8 /* DetailsFeatures */,
+				FF97DD562BD802E000AE95B8 /* HomeModule */,
+			);
+			path = FeaturesLayer;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -271,7 +278,6 @@
 			);
 			mainGroup = FF1B9B832BD65BEB005CFEE3;
 			packageReferences = (
-				FF93DD242BD7CB7700AEB59A /* XCLocalSwiftPackageReference "../UILayer" */,
 			);
 			productRefGroup = FF1B9B8D2BD65BEB005CFEE3 /* Products */;
 			projectDirPath = "";
@@ -290,8 +296,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF1B9B9C2BD65BED005CFEE3 /* LaunchScreen.storyboard in Resources */,
+				FF97DD532BD802D800AE95B8 /* CoreLayer in Resources */,
+				FF97DD5A2BD8031500AE95B8 /* UILayer in Resources */,
 				FF1B9B992BD65BED005CFEE3 /* Assets.xcassets in Resources */,
+				FF97DD582BD802E000AE95B8 /* HomeModule in Resources */,
 				FF1B9B972BD65BEB005CFEE3 /* Main.storyboard in Resources */,
+				FF97DD572BD802E000AE95B8 /* DetailsFeatures in Resources */,
+				FF97DD522BD802D800AE95B8 /* NetworkLayer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,13 +677,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCLocalSwiftPackageReference section */
-		FF93DD242BD7CB7700AEB59A /* XCLocalSwiftPackageReference "../UILayer" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../UILayer;
-		};
-/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		FF1B9BC62BD65C36005CFEE3 /* CoreLayer */ = {
